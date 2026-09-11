@@ -1,0 +1,11 @@
+{
+  "targetUrl": "https://mcyj.github.io/global-exam-support/terms.html?app=glb-0003",
+  "expectedHttpStatus": 200,
+  "expectedTitle": "Terms of Use · RushLabs Exam Prep",
+  "checkedAt": null,
+  "commit": null,
+  "httpStatus": null,
+  "title": null,
+  "appReference": null,
+  "status": "pending"
+}
