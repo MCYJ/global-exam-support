@@ -22,3 +22,6 @@
 - Content scope: platform subscription terms, billing, cancellation, restoration, independent-app non-affiliation, educational-purpose limits, liability limits, and support contact.
 - Source changes: add `terms.html`, add a Terms card to `index.html`, and retain the existing privacy/support design and behavior.
 - Deployment verification details are recorded in `deployment-evidence.json` after the live GitHub Pages check.
+- Content commit: `979ca6a3fb0780ec70469d5a0c1caa4b1e6327ea`.
+- GitHub Pages deployment run: `https://github.com/MCYJ/global-exam-support/actions/runs/34589181649` (success).
+- Live verification at `2026-09-11T10:26:42Z`: HTTP 200 with title `Terms of Use · RushLabs Exam Prep`.

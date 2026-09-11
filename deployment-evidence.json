@@ -2,10 +2,11 @@
   "targetUrl": "https://mcyj.github.io/global-exam-support/terms.html?app=glb-0003",
   "expectedHttpStatus": 200,
   "expectedTitle": "Terms of Use · RushLabs Exam Prep",
-  "checkedAt": null,
-  "commit": null,
-  "httpStatus": null,
-  "title": null,
-  "appReference": null,
-  "status": "pending"
+  "checkedAt": "2026-09-11T10:26:42Z",
+  "commit": "979ca6a3fb0780ec70469d5a0c1caa4b1e6327ea",
+  "deploymentRun": "https://github.com/MCYJ/global-exam-support/actions/runs/34589181649",
+  "httpStatus": 200,
+  "title": "Terms of Use · RushLabs Exam Prep",
+  "appReference": "glb-0003",
+  "status": "verified"
 }
