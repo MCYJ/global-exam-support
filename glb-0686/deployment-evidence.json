@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "serviceId": "glb-0686",
+  "repository": "MCYJ/global-exam-support",
+  "pagesBaseUrl": "https://mcyj.github.io/global-exam-support/",
+  "contentCommit": "9d3f9f002866f7bbeeca91d3f33ceddb0e973ae6",
+  "contentBuild": {
+    "status": "built",
+    "apiUrl": "https://api.github.com/repos/MCYJ/global-exam-support/pages/builds/1220882510",
+    "createdAt": "2026-09-17T08:46:13Z",
+    "updatedAt": "2026-09-17T08:46:33Z"
+  },
+  "verifiedAt": "2026-09-17T08:47:00Z",
+  "files": [
+    {
+      "kind": "privacy",
+      "path": "glb-0686/privacy.html",
+      "url": "https://mcyj.github.io/global-exam-support/glb-0686/privacy.html",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "6e0b01ab4d7a091d3ce8cea228237b88458cb1b001c2fb414d25f29258b3ad3e"
+    },
+    {
+      "kind": "support",
+      "path": "glb-0686/support.html",
+      "url": "https://mcyj.github.io/global-exam-support/glb-0686/support.html",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "7fa53cddee9bb966194fba19a9325afdfeeb2cecddf00cf1b05e2911da26ed2b"
+    },
+    {
+      "kind": "terms",
+      "path": "glb-0686/terms.html",
+      "url": "https://mcyj.github.io/global-exam-support/glb-0686/terms.html",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "23a2c5bd6cfc1f1b6bbdb4984d64843489ae8ecbf6ed4ee1d290b0f42f9b5dd5"
+    },
+    {
+      "kind": "stylesheet",
+      "path": "glb-0686/legal.css",
+      "url": "https://mcyj.github.io/global-exam-support/glb-0686/legal.css",
+      "httpStatus": 200,
+      "contentType": "text/css; charset=utf-8",
+      "sha256": "6f3d932471b92a50d5437f41cb49b22a60098f185c3d974e72d5d352e5c767b2"
+    }
+  ],
+  "checks": {
+    "liveBodyMatchesCommittedSource": true,
+    "pageTitleAndBodyIdentityMatch": true,
+    "httpsEnforced": true,
+    "pathCollisionAvoided": true,
+    "storeConsoleAccessed": false
+  },
+  "status": "verified"
+}
