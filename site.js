@@ -9,4 +9,11 @@
 
   const intro = document.querySelector("#support-intro");
   if (intro) intro.textContent = `Help for RushLabs app ${app}.`;
+
+  const supportEmail = document.querySelector("#support-email");
+  if (supportEmail) {
+    supportEmail.href = `mailto:june1012june@gmail.com?subject=${encodeURIComponent(
+      `Support request for ${app}`,
+    )}`;
+  }
 })();
