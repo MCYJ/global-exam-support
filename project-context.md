@@ -42,3 +42,10 @@
   email subject so App Review and customers can identify the affected app.
 - The page requests only useful diagnostic details, warns against sending
   payment or private data, and states a two-business-day acknowledgement goal.
+
+
+## Paid-upfront privacy and terms clarification - 2026-10-22
+
+- Updated the shared purchases description to distinguish paid-upfront Pro/current no-IAP editions from older subscription editions. Current no-IAP apps do not run receipt/restore flows; the legacy description remains conditional for installed older versions.
+- Added the local export/OS backup retention boundary and clarified separate Pro product purchases. Reinstall guidance links to Google Play and Apple official help. No data collection behavior, JavaScript, styles, app identities, or existing app-specific legal pages changed.
+- Source check: preserved existing HTML document structure, explicit source diff, date and link review, and git diff --check. Public HTTPS/source-SHA verification follows GitHub Pages deployment; do not treat a commit alone as deployment.
