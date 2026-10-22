@@ -49,3 +49,5 @@
 - Updated the shared purchases description to distinguish paid-upfront Pro/current no-IAP editions from older subscription editions. Current no-IAP apps do not run receipt/restore flows; the legacy description remains conditional for installed older versions.
 - Added the local export/OS backup retention boundary and clarified separate Pro product purchases. Reinstall guidance links to Google Play and Apple official help. No data collection behavior, JavaScript, styles, app identities, or existing app-specific legal pages changed.
 - Source check: preserved existing HTML document structure, explicit source diff, date and link review, and git diff --check. Public HTTPS/source-SHA verification follows GitHub Pages deployment; do not treat a commit alone as deployment.
+
+- Deployment confirmed at 2026-10-22T10:08:04.057251+00:00: content commit `1337406706976e67f241da5b6781025764a9822c`, GitHub Pages run `39760682882` succeeded. Both public privacy and terms HTTPS responses returned 200 and matched source bytes/SHA-256 exactly. No browser/layout changes were introduced.

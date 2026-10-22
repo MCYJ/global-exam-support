@@ -1,12 +1,32 @@
 {
   "targetUrl": "https://mcyj.github.io/global-exam-support/terms.html?app=glb-0003",
   "expectedHttpStatus": 200,
-  "expectedTitle": "Terms of Use · RushLabs Exam Prep",
+  "expectedTitle": "Terms of Use \u00b7 RushLabs Exam Prep",
   "checkedAt": "2026-09-11T10:26:42Z",
   "commit": "979ca6a3fb0780ec70469d5a0c1caa4b1e6327ea",
   "deploymentRun": "https://github.com/MCYJ/global-exam-support/actions/runs/34589181649",
   "httpStatus": 200,
-  "title": "Terms of Use · RushLabs Exam Prep",
+  "title": "Terms of Use \u00b7 RushLabs Exam Prep",
   "appReference": "glb-0003",
-  "status": "verified"
+  "status": "verified",
+  "paidUpfrontPolicyClarification20261022": {
+    "checkedAt": "2026-10-22T10:08:04.057251+00:00",
+    "contentCommit": "1337406706976e67f241da5b6781025764a9822c",
+    "githubPagesRun": 39760682882,
+    "conclusion": "success",
+    "publicHttpsChecks": [
+      {
+        "url": "https://mcyj.github.io/global-exam-support/privacy.html?app=kor-0029",
+        "status": 200,
+        "sha256": "c32202ba5c658e3234451bf91cf6092a8057f43ef12652fef0d0fd6097f39965",
+        "sourceBytesExact": true
+      },
+      {
+        "url": "https://mcyj.github.io/global-exam-support/terms.html?app=kor-0029",
+        "status": 200,
+        "sha256": "35079cda127d097a1e62792daeadab6516f520873f6c837d54c7ee9c71db39d4",
+        "sourceBytesExact": true
+      }
+    ]
+  }
 }
