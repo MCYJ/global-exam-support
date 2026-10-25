@@ -51,3 +51,8 @@
 - Source check: preserved existing HTML document structure, explicit source diff, date and link review, and git diff --check. Public HTTPS/source-SHA verification follows GitHub Pages deployment; do not treat a commit alone as deployment.
 
 - Deployment confirmed at 2026-10-22T10:08:04.057251+00:00: content commit `1337406706976e67f241da5b6781025764a9822c`, GitHub Pages run `39760682882` succeeded. Both public privacy and terms HTTPS responses returned 200 and matched source bytes/SHA-256 exactly. No browser/layout changes were introduced.
+
+## Paid-download support instructions - 2026-10-25
+
+- Corrected the shared support page, which previously told every app user to open Premium and Restore purchase. Paid-download/no-IAP editions now explain store purchase and redownload through the original store account, with no in-app restore button, subscription, unlock or daily cap. Existing subscription restoration remains available under an explicitly conditional older-edition section.
+- Preserved site.js, styles, privacy, terms and app-specific pages. Local browser review confirmed the app reference and support mail subject still use the sanitized app query value. Public HTTP/body hash and rendered deployment verification follow the source commit. This is support-copy maintenance, not App Review submission.
