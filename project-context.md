@@ -56,3 +56,5 @@
 
 - Corrected the shared support page, which previously told every app user to open Premium and Restore purchase. Paid-download/no-IAP editions now explain store purchase and redownload through the original store account, with no in-app restore button, subscription, unlock or daily cap. Existing subscription restoration remains available under an explicitly conditional older-edition section.
 - Preserved site.js, styles, privacy, terms and app-specific pages. Local browser review confirmed the app reference and support mail subject still use the sanitized app query value. Public HTTP/body hash and rendered deployment verification follow the source commit. This is support-copy maintenance, not App Review submission.
+
+- Live deployment confirmed at 2026-10-25T01:59:43Z: content commit8a536f1719b5e18e4df803541eef63252adaae42, GitHub Pages run40152669255 completed successfully. All66 support URLs and66 privacy URLs returned HTTP200 with exact committed source bytes. Browser review of the public GLB1036 support page confirmed paid-download/conditional legacy sections and app reference. Privacy, terms, CSS, JavaScript and app-specific pages were unchanged.
