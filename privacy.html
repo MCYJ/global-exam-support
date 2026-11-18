@@ -25,7 +25,7 @@
         </div>
         <div>
           <dt>Last updated</dt>
-          <dd>October 22, 2026</dd>
+          <dd>November 19, 2026</dd>
         </div>
       </dl>
 
@@ -61,6 +61,32 @@
           applies only to an edition that actually offers those controls.
           Payment-card details remain with the store and are not available to
           the app. Manage existing subscriptions through your store account.
+        </p>
+      </section>
+      <section>
+        <h2>Android billing diagnostics: KOR-0258</h2>
+        <p>
+          The Android edition of 청소년상담사 1급 필기·면접
+          (app.mcyj.examprep.kor0258), version 1.0.3 (6), uses Google Play
+          Billing. Its billing SDK can send technical diagnostics to Google:
+          billing results and errors, app package and version, device and
+          operating-system information, language and network characteristics,
+          event times, and a randomly generated billing-client correlation
+          value. A billing client generates a new random correlation value
+          when it is created. The diagnostics support billing reliability and
+          troubleshooting; they are separate from local study answers and
+          bookmarks and are not sent to a RushLabs server.
+        </p>
+        <p>
+          Google DataTransport can store diagnostic events in a local queue
+          before sending them over HTTPS. This queue can survive an app
+          restart; it is not limited to temporary memory. Google handles
+          received diagnostics under its own policies. Clearing local app
+          data does not delete purchase history or diagnostics already held
+          by Google. For Google-held information, see
+          <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a>.
+          We do not promise a fixed Google server-retention period or deletion
+          through the app’s local study reset.
         </p>
       </section>
       <section>

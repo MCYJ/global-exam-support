@@ -58,3 +58,12 @@
 - Preserved site.js, styles, privacy, terms and app-specific pages. Local browser review confirmed the app reference and support mail subject still use the sanitized app query value. Public HTTP/body hash and rendered deployment verification follow the source commit. This is support-copy maintenance, not App Review submission.
 
 - Live deployment confirmed at 2026-10-25T01:59:43Z: content commit8a536f1719b5e18e4df803541eef63252adaae42, GitHub Pages run40152669255 completed successfully. All66 support URLs and66 privacy URLs returned HTTP200 with exact committed source bytes. Browser review of the public GLB1036 support page confirmed paid-download/conditional legacy sections and app reference. Privacy, terms, CSS, JavaScript and app-specific pages were unchanged.
+
+
+## KOR-0258 Android billing diagnostics clarification — 2026-11-19
+
+- Isolated branch from current origin/main d25384b. Source private credentials and review code/digest are excluded from this repository.
+- The exact Android1.0.3(6) AAB Billing8.0.0 DEX audit and offline native SDK queue events demonstrate a technical diagnostics channel distinct from local study records. Added a version-specific privacy section naming only this Android app, HTTPS/persistent local queue, temporary correlation-value scope and Google-held data retention/deletion boundary. No claim of a fixed Google server-retention duration.
+- Google public PBL release notes document reliability/error logging; SDK-derived data must be included under the Play Data safety guidance. Exact runtime evidence remains private in the app portfolio; no raw payloads or identifiers were copied here.
+- The sanitized app query now displays this app full name/package. All other valid app IDs retain existing textContent behavior and the existing input allowlist. No iOS or paid/no-IAP collection behavior is newly asserted. Existing terms, support, CSS and app-specific pages are preserved.
+- Before deploy: source diff/whitespace, local rendered page and app-reference checks. Commit/push alone is not live deployment evidence; public HTTP/body hashes and rendered verification must follow.
